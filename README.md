@@ -17,3 +17,10 @@ model = WhisperModel("whisper-base", device="cpu", compute_type="int8")  # extra
 ## License
 The Whisper model weights are released by OpenAI under the MIT License; the CTranslate2
 conversions are by SYSTRAN (MIT). See `LICENSE`. Files are unmodified.
+
+## Vosk (Portuguese, small)
+| Asset | Source | Size |
+|---|---|---|
+| `vosk-pt.zip` | [vosk-model-small-pt-0.3](https://alphacephei.com/vosk/models) by Alpha Cephei | ~32 MB |
+
+Licensed under Apache 2.0 by Alpha Cephei. Unmodified. Also available as `parts/vosk-pt.zip`.
